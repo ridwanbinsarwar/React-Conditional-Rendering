@@ -1,6 +1,6 @@
 # React-Conditional-Rendering
 
-
+### type 1
 ```javascript
    <If condition={value === 5}>
        <Then>
@@ -18,4 +18,11 @@
            <Component>
        </Else>
    </If>
+```
+
+### type 2
+```javascript
+    <IF condition={!loading}>
+         <Componenet/>
+    </IF>
 ```
